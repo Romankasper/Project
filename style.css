@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.width{
+    width: 1200px;
+    margin: 0 auto;
+}
+/*------------top--------------*/
+section:nth-child(1){
+    height: 908px;
+    background-image: url(img/start-screen-gradient-background.png);
+    background-size: cover;
+    padding-top: 60px;
+}
+header{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+header div h4{
+    color:  #F1CDB3;
+    font-family: Georgia, sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 1.92px;
+    margin-bottom: 10px;
+}
+header div p{
+    color: #FFF;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 4px;
+    letter-spacing: 1.3px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 35px;
+}
+nav a{
+    text-decoration: none;
+    color: #CDCDCD;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 160%;
+}
+nav a:nth-child(1){
+    border-bottom: 3px solid #F1CDB3;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-top: 60px;
+}
+main div{
+    margin-top: 163px;
+}
+main div h2{
+    width: 310px;
+    color: #FFF;
+    font-family: Georgia, sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 130%;
+}
+main div p{
+    margin: 42px 0;
+    width: 460px;
+    color:  #CDCDCD;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 160%;
+}
+main button{
+    background: #F1CDB3;
+    color:  #292929;
+    padding: 15px 45px;
+    border-radius: 100px;
+    font-family: Georgia, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 1.02px;
+    border: none;
+}
+/*------------sect-two--------------*/
+.dog{
+    display: flex;
+    height: 408px;
+    padding: 0 175px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+.dog div h3{
+    width: 370px;
+    color:  #545454;
+    font-family: Georgia, sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 2.1px;
+}
+.dog div p{
+    color:  #4C4C4C;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 160%;
+}
+.dog div p:nth-child(2){
+    margin: 25px 0;
+}
+/*------------sect-three--------------*/
+section:nth-child(3){
+    background: #F6F6F6;
+}
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    padding: 80px 0 100px 0;
+}
+.third h2{
+    color:  #545454;
+    text-align: center;
+    font-family: Georgia, sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 2.1px;
+}
+.animals{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    padding: 0 105px ;
+}
+.animals .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    height: 435px;
+    padding-bottom: 30px;
+    border-radius: 9px;
+    background:  #FAFAFA;
+}
+.animals .card p{
+    color:  #545454;
+    text-align: center;
+    font-family: Georgia, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+}
+.animals .card button{
+    padding: 15px 45px;
+    border-radius: 100px;
+    border: 2px solid #F1CDB3;
+    color: #292929;
+    font-family: Georgia, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 1.02px;
+    background-color: #FFFFFF;
+}
+.third>button{
+    padding: 15px 45px;
+    border-radius: 100px;
+    background:  #F1CDB3;
+    color: #292929;
+    font-family: Georgia, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 1.02px;
+    border: none ;
+}
+/*------------sect-four--------------*/
+.four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    padding: 80px 0 100px 0;
+}
+.four h3{
+    color:  #545454;
+    text-align: center;
+    font-family: Georgia, sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 2.1px;
+}
+.four>div{
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:55px  120px;
+}
+.svg{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.svg h4{
+    color:  #545454;
+    text-align: center;
+    font-family: Georgia, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: 1.2px;
+}
+/*------------sect-five--------------*/
+section:nth-child(5){
+    background:  #F6F6F6;
+}
+.five{
+    height: 462px;
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.five>div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+.five div h3{
+    width: 300px;
+    color: #545454;
+    font-family: Georgia, sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 2.1px;
+}
+.five div p:nth-child(2){
+    color:  #545454;
+    font-family: Georgia, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 0.9px;
+}
+.number{
+    display: flex;
+    padding: 10px 15px;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    border-radius: 9px;
+    background:  #F1CDB3;
+}
+.number h5{
+    color:  #545454;
+    font-family: Georgia, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: 1.2px;
+}
+.five div p:nth-child(4){
+    width: 380px;
+    color:  #B2B2B2;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px;
+}
+/*-------------footer-------------*/
+footer{
+    background-image: url(img/footer-gradient-background.png);
+    background-size: cover;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 160px;
+    padding: 40px 40px 0 40px;
+}
+.footer>div{
+    display: flex;
+    padding-right: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+}
+.footer h3{
+    width: 290px;
+    color:  #FFF;
+    font-family: Georgia, sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 2.1px;
+}
+.footer>div>div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+.footer h4{
+    color:  #F1CDB3;
+    font-family: Georgia, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: 1.2px;
+}

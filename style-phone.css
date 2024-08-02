@@ -1,0 +1,158 @@
+@media screen and (max-width: 320px) {
+   .width{
+       width: 300px;
+       margin: 0 auto;
+   }
+    /*------------top--------------*/
+    section:nth-child(1){
+        background-image: url(img/start-screen-gradient-background-phone.png);
+        height: 823px;
+        padding-top: 30px;
+    }
+    nav{
+        display: none;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    main div h2{
+        width: 200px;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+        text-align: center;
+    }
+    main div p{
+        width: 300px;
+        text-align: center;
+    }
+    main div{
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    main img{
+        margin-top: 105px;
+        width: 260px;
+        height: 271px;
+    }
+    /*------------sect-two--------------*/
+    .dog{
+        height: 974px;
+        padding: 0;
+        margin: 42px auto;
+        gap: 25px;
+        flex-direction: column-reverse;
+    }
+   .dog div h3{
+       width: 260px;
+       font-size: 25px;
+       letter-spacing: 1.5px;
+       text-align: center;
+   }
+    .dog div p{
+        width: 270px;
+        text-align: justify;
+    }
+    .dog div img{
+        width: 260px;
+        height: 353.6px;
+        margin-top: 17px;
+    }
+    /*------------sect-three--------------*/
+    .third{
+        padding: 42px 0;
+    }
+    .third h2{
+        font-size: 25px;
+        letter-spacing: 1.5px;
+    }
+    .animals .card:nth-child(n+2){
+        display: none;
+    }
+    /*------------sect-four--------------*/
+    .four{
+        padding: 42px 0;
+    }
+    .four h3{
+        font-size: 25px;
+        letter-spacing: 1.5px;
+    }
+    .svg h4{
+        font-size: 15px;
+        letter-spacing: 0.9px;
+    }
+    .four>div{
+        width: 290px;
+        gap:30px;
+        justify-content: flex-start;
+    }
+    .svg{
+        gap: 20px;
+    }
+    .svg h4{
+        width: 130px;
+    }
+    /*------------sect-five--------------*/
+    .five{
+        height: 550px;
+        padding: 42px 0;
+        gap: 42px;
+        flex-direction: column-reverse;
+    }
+    .five div{
+        align-items: center;
+    }
+    .five div h3{
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+    }
+    .five div p:nth-child(2){
+        line-height: 160%;
+        letter-spacing: 0;
+    }
+    .number h5{
+        font-size: 15px;
+        line-height: 110%;
+        letter-spacing: 0.9px;
+    }
+    .five div p:nth-child(4){
+        text-align: justify;
+        width: 280px;
+    }
+    .five img{
+        width: 260px;
+        height: 135px;
+    }
+    /*------------footer--------------*/
+    footer{
+        background-image: url(img/footer-gradient-background-phone.png);
+    }
+    .footer{
+        flex-direction: column;
+        gap: 40px;
+        padding: 30px 0 0 0 ;
+    }
+    .footer>div:nth-child(1){
+        justify-content: center;
+        align-items: center;
+    }
+    .footer>div:nth-child(2){
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .footer h3{
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+    }
+    .footer img{
+        width: 260px;
+        height: 269px;
+    }
+}
